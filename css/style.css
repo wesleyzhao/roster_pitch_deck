@@ -1,0 +1,51 @@
+.slideImage {
+    height: 700px;
+}
+
+#navbar {
+    width : 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    /* background: #F3F0E9; */
+    
+
+}
+
+#navcenter {
+    margin: 0 auto;
+    width: 960px;
+}
+#navcenter a{
+    color: #CAC7C1;
+    display: block;
+    float: left;
+    position: relative;
+    width: 47px;
+    height: 22px;
+    background: url(../images/social-buttons.png) no-repeat -282px 0;
+/*    border-top: 4px solid #F3F0E9;*/
+    padding: 18px 0px 12px 0px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    text-shadow: white 0 1px 0;
+}
+
+#navcenter a.current {
+    color: #615E5A;
+    background-position: -329px 0;
+}
+a, a:visited, a:active {
+    text-decoration: none;
+}
+
+body {
+    background: #FAF8F3;
+}
+
+textarea {
+    color: #444;
+}
